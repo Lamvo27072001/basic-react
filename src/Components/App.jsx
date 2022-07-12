@@ -1,14 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./App.css"
 import Header from './Header'
 import AddContact from './AddContact'
 import ContactList from './ContactList'
-export default function App() {
+ function App() {
+
+  
+
   return (
-    <div>
+    <div className='ui container'>
       <Header/>
       <AddContact/>
-      {/* <ContactList/> */}
+      <ContactList />
     </div>
   )
 }
+
+export default App;

@@ -4,38 +4,34 @@
     box-sizing: border-box;
 }
 
-.ui_header {
-    display: flex;
+.ui.fixed.menu {
+    padding: 10px;
+}
+
+.ui.container.center {
     justify-content: center;
-    align-items: center;
 }
 
-.ui_header>.ui {
-    width: 100%;
-    color: black;
-    padding: 20px;
-    border-bottom: 1px solid black;
-    text-align: center;
+.ui.main {
+    margin-top: 45px;
 }
 
-.add_contact {
-    padding: 10px;
+.ui.main>h2 {
+    padding-top: 20px;
 }
 
-.ui_form {
-    margin: 6px 0;
+.content {
     padding: 10px 0;
+    display: inline-block;
 }
 
-.field input {
-    display: block;
-    width: 100%;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+.content>div {
+    padding: 5px;
 }
 
-.field label {
-    font-weight: 600;
+i.trash.alternate.outline.icon {
+    font-size: 25px;
+    display: inline;
+    line-height: 80px;
+    float: right;
 }
