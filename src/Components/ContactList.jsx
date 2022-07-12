@@ -18,7 +18,8 @@ import ContactCard from './ContactCard'
     
     const renderContactList = contacts.map((contact1) => {
         return(
-            <ContactCard contact={contact1}/>
+            // <ContactCard name={contact1.name} email={contact1.email}/>
+            <ContactCard contactions={contact1} />
         )
     })
   return (
